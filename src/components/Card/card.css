@@ -1,0 +1,32 @@
+.card--container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  border-radius: 20px;
+  gap: 10px;
+  transition: 0.5s all ease-in;
+}
+
+.card--container a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s all ease-in-out;
+}
+
+.card--container a:hover {
+  color: skyblue;
+}
+
+.subtitle--text {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.card--container div {
+  display: inherit;
+  justify-content: space-between;
+}
